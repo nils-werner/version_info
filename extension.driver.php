@@ -1,7 +1,5 @@
 <?php
 
-error_reporting(E_ALL);
-
 	Class extension_version_info extends Extension{
 	
 		public function about(){
