@@ -27,7 +27,7 @@
 			$ul = &$context['wrapper'];
 			
 			$li = new XMLElement('li');
-			$li->setValue("Symphony CMS Version <strong>" . Administration::instance()->Configuration->get('version', 'symphony') . "</strong>");
+			$li->setValue("<a href=\"http://symphony-cms.com/\">Symphony CMS Version <strong>" . Administration::instance()->Configuration->get('version', 'symphony') . "</strong></a>");
 			$ul->prependChild($li);
 		}
 			
